@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>
+      This is my web thing.
+    </description>
+    
+        
+            <item>
+                <title>iOS Mail Aliases</title>
+                <link>//posts/2017/07/23/aliases-in-ios-mail/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>How to properly set up email aliases in the stock iOS Mail App</p>
+
+<h2 id="generate-an-app-password-for-ios-mail">Generate an App Password for iOS Mail</h2>
+
+<ol>
+  <li>Go to your <a href="https://myaccount.google.com/security#signin">Google Security settings</a></li>
+  <li>Under <em>Signing in to Google</em>, click <em>App Passwords</em></li>
+  <li>If prompted for your password, enter it</li>
+  <li>Under <em>Select App</em>, choose <em>Mail</em></li>
+  <li>Under <em>Select Device</em>, choose <em>Other (Custom Name)</em></li>
+  <li>Enter a name for the app. I used <em>iOS Mail App</em></li>
+  <li>Click <em>Generate</em></li>
+  <li>Copy and paste this password somewhere because we will need it later</li>
+</ol>
+
+<h2 id="configure-ios-mail">Configure iOS Mail</h2>
+
+<ol>
+  <li>
+    <p>Open <em>Settings</em> &gt; <em>Mail</em> &gt; <em>Add Account</em> &gt; <em>Other</em> &gt; <em>Add Mail Account</em></p>
+  </li>
+  <li>Enter your information
+    <div class="highlighter-rouge"><pre class="highlight"><code>Name:        John Doe
+Email:       john.doe@gmail.com
+Password:    top$ecret
+Description: Gmail
+</code></pre>
+    </div>
+  </li>
+  <li>For Incoming Mail, enter the following
+    <div class="highlighter-rouge"><pre class="highlight"><code>Host Name:	imap.gmail.com
+User Name:	john.doe@gmail.com
+Password:	[ Generated App Password ]
+</code></pre>
+    </div>
+  </li>
+  <li>For Outgoing Mail, I use <a href="http://www.smtp2go.com">smtp2go</a>, but you can also use Gmail’s SMTP server
+    <div class="highlighter-rouge"><pre class="highlight"><code>Host Name:	smtp.gmail.com
+User Name:	john.doe@gmail.com
+Password:	[ Generated App Password ]
+</code></pre>
+    </div>
+  </li>
+</ol>
+
+<p>You’re all set!</p>
+
+<p>If you would like to use Google Calendar via the iOS Calendar App, just add an account and choose Gmail. Sign in with your usual Gmail address and password. Once the account is set up, go back into the settings and tap the green toggle next to Mail to turn it off, but leave the Calendar toggle on.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/2017/07/23/aliases-in-ios-mail/</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Sun, 23 Jul 2017 12:00:00 +0000</pubDate>
+                <author>Eric F. Meeks</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Bandit</title>
+                <link>//posts/2017/05/18/bandit/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>The guys and gals over at <a href="Overthewire.org">Overthewire.org</a> have come up with a series of command line games called <em><a href="http://overthewire.org/wargames/">Wargames</a></em>. I’ve been playing through <em><a href="http://overthewire.org/wargames/bandit/">Bandit</a></em>, the easiest of the series. Here are my solutions so far.</p>
+
+<p>Go to level <a href="#level-0">[0]</a><a href="#level-1">[1]</a><a href="#level-2">[2]</a><a href="#level-3">[3]</a><a href="#level-4">[4]</a><a href="#level-5">[5]</a><a href="#level-6">[6]</a><a href="#level-7">[7]</a> <em>more coming soon</em></p>
+
+<h2 id="level-0">Level 0</h2>
+
+<h3 id="goal">Goal</h3>
+<p>The goal of this level is for you to log into the game using SSH. The host to which you need to connect is <strong>bandit.labs.overthewire.org</strong>, on <strong>port 2220</strong>. The username is <strong>bandit0</strong> and the password is <strong>bandit0</strong>. Once logged in, go to the Level 1 page to find out how to beat Level 1.</p>
+
+<h3 id="solution">Solution</h3>
+<p>Ssh into Level 0 with the username <strong>bandit0</strong> and password <strong>bandit0</strong></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ssh -p 2220 bandit0@bandit.labs.overthewire.org
+</code></pre>
+</div>
+
+<h2 id="level-1">Level 1</h2>
+
+<h3 id="goal-1">Goal</h3>
+<p>The password for the next level is stored in a file called readme located in the home directory. Use this password to log into bandit1 using SSH. Whenever you find a password for a level, use SSH (on port 2220) to log into that level and continue the game.</p>
+
+<h3 id="solution-1">Solution</h3>
+<p>While still logged in as <strong>bandit0</strong>, let’s find the password for the next level.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ cat readme
+boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+</code></pre>
+</div>
+<p>The password for <strong>bandit1</strong> is <strong>boJ9jbbUNNfktd78OOpsqOltutMc3MY1</strong>.</p>
+
+<h2 id="level-2">Level 2</h2>
+
+<h3 id="goal-2">Goal</h3>
+<p>The password for the next level is stored in a file called - located in the home directory.</p>
+
+<h3 id="solution-2">Solution</h3>
+<p>Ssh into the level with the Username <strong>bandit1</strong> and Password <strong>boJ9jbbUNNfktd78OOpsqOltutMc3MY1</strong>.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ssh -p 2220 bandit1@bandit.labs.overthewire.org
+$ ls
+-
+$ cat ./-
+CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+</code></pre>
+</div>
+
+<p>The password to for <strong>bandit2</strong> is <strong>CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9</strong>.</p>
+
+<h2 id="level-3">Level 3</h2>
+
+<h3 id="goal-3">Goal</h3>
+<p>The password for the next level is stored in a file called spaces in this filename located in the home directory.</p>
+
+<h3 id="solution-3">Solution</h3>
+<p>Ssh into the level using the username for this level, <strong>bandit2</strong> and enter the password we found in the previous level, <strong>CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9</strong>.</p>
+<blockquote>
+  <p>You will access each level the same way, but substitute the username and password for those which correspond to the level you are accessing.</p>
+</blockquote>
+
+<p>Once logged in as <strong>bandit2</strong>, proceed with these commands.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ls
+spaces in this filename
+$ cat spaces\ in\ this\ filename
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+</code></pre>
+</div>
+<p><em>Or</em></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ cat "spaces in this filename"
+UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+</code></pre>
+</div>
+<p>Either method will produce the same result. The first method is what automatically populates when you enter the first few characters and press <strong>TAB</strong>.</p>
+
+<p>The password for <strong>bandit3</strong> is <strong>UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK</strong>.</p>
+
+<h2 id="level-4">Level 4</h2>
+
+<h3 id="goal-4">Goal</h3>
+<p>The password for the next level is stored in a hidden file in the inhere directory.</p>
+
+<h3 id="solution-4">Solution</h3>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ls
+inhere
+$ cd inhere
+$ ls -a
+. .. .hidden
+$ cat .hidden
+pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+</code></pre>
+</div>
+<p>The password for <strong>bandit4</strong> is <strong>pIwrPrtPN36QITSp3EQaw936yaFoFgAB</strong>.</p>
+
+<h2 id="level-5">Level 5</h2>
+
+<h3 id="goal-5">Goal</h3>
+<p>The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.</p>
+
+<h3 id="solution-5">Solution</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ls
+inhere
+$ cd inhere
+$ ls
+-file00  -file02  -file04  -file06  -file08
+-file01  -file03  -file05  -file07  -file09
+$ file ./* | grep text
+./-file07: ASCII text
+# We now know that file07 contains the info we want
+$ cat ./-file07
+koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+</code></pre>
+</div>
+<p>The password to for <strong>bandit5</strong> is <strong>koReBOKuIDDepwhWk7jZC0RTdopnAYKh</strong>.</p>
+
+<h2 id="level-6">Level 6</h2>
+
+<h3 id="goal-6">Goal</h3>
+<p>The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:</p>
+
+<ul>
+  <li>human-readable</li>
+  <li>1033 bytes in size</li>
+  <li>not executable</li>
+</ul>
+
+<h3 id="solution-6">Solution</h3>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ ls
+inhere
+$ cd inhere
+$ ls
+maybehere00  maybehere03  maybehere06  maybehere09  maybehere12
+maybehere15  maybehere18  maybehere01  maybehere04  maybehere07
+maybehere10  maybehere13  maybehere16  maybehere19  maybehere02
+maybehere05  maybehere08  maybehere11  maybehere14  maybehere17
+$ find . -type f -exec ls -l "{}" \; | grep 1033
+-rw-r----- 1 root bandit5 1033 Nov 14  2014 ./maybehere07/.file2
+$ cat maybehere07/.file2 | grep -v -e ' '
+DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+</code></pre>
+</div>
+<p>The password for <strong>bandit6</strong> is <strong>DXjZPULLxYr17uwoI01bNLQbtFemEgo7</strong>.</p>
+
+<h2 id="level-7">Level 7</h2>
+
+<h3 id="goal-7">Goal</h3>
+<p>The password for the next level is stored somewhere on the server and has all of the following properties:</p>
+<ul>
+  <li>owned by user bandit7</li>
+  <li>owned by group bandit6</li>
+  <li>33 bytes in size</li>
+</ul>
+
+<h3 id="solution-7">Solution</h3>
+<p>This one took me a little while to figure out.</p>
+<div class="highlighter-rouge"><pre class="highlight"><code>$ cat `find / -type f -user bandit7 -group bandit6 2&gt;/dev/null`
+HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">cat</code> reads the final output of the command in `quotes` <br />
+<code class="highlighter-rouge">find</code> is the command to find something <br />
+<code class="highlighter-rouge">/</code> tells find where to start looking (recursively by default)<br />
+<code class="highlighter-rouge">-type f</code> specifies that we’re looking only for files, not directories or anything else <br />
+<code class="highlighter-rouge">-user bandit7</code> specifies that the owner of the file should be <em>bandit7</em> <br />
+<code class="highlighter-rouge">-group bandit6</code> specifies that the file be accessible by group <em>bandit6</em> <br />
+And finally, <strong>the most important part</strong>, <code class="highlighter-rouge">2&gt;/dev/null</code> routes all ‘Permission denied’ errors to ‘/dev/null’ (aka neverland) instead of to standard output.</p>
+
+<p>Therefore, the password for <strong>bandit7</strong> is <strong>HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs</strong>.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/2017/05/18/bandit/</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Thu, 18 May 2017 12:00:00 +0000</pubDate>
+                <author>Eric F. Meeks</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Zzz</title>
+                <link>//posts/2017/05/15/zzz/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p><img src="/images/zzz-ss.png" alt="Screenshot" /></p>
+
+<p>A command line tool that blanks your Mac display without putting the machine to sleep.</p>
+
+<p>It is the command line equivalent of <a href="https://support.apple.com/en-us/HT201236">Control–Shift–Eject</a>.</p>
+
+<p><em>Note: This only works on OS X</em></p>
+
+<h2 id="why-not-just-press--">Why not just press ⌃⇧⏏ ?</h2>
+<p>If you can physically press the keys, then by all means do that. However, Zzz is intended for applications where the user is not within reach of the physical machine e.g. remote ssh.</p>
+
+<h2 id="usage">Usage</h2>
+<h3 id="download-zzzzip">Download Zzz.zip</h3>
+<p><a href="https://github.com/efmeeks/Zzz/archive/master.zip">Zzz.zip</a></p>
+<h3 id="unzip-the-archive">Unzip the archive</h3>
+<p><code class="highlighter-rouge">unzip Zzz-master.zip</code></p>
+<h3 id="open-the-folder">Open the folder</h3>
+<p><code class="highlighter-rouge">cd Zzz-master</code></p>
+<h3 id="ensure-zzzsh-is-executable">Ensure <code class="highlighter-rouge">zzz.sh</code> is executable</h3>
+<p><code class="highlighter-rouge">chmod +x zzz.sh</code></p>
+<h3 id="run-zzzsh">Run <code class="highlighter-rouge">zzz.sh</code></h3>
+<p><code class="highlighter-rouge">./zzz.sh</code></p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/2017/05/15/zzz/</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Mon, 15 May 2017 12:00:00 +0000</pubDate>
+                <author>Eric F. Meeks</author>
+            </item>
+        
+    
+  </channel>
+</rss>
