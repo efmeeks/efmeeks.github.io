@@ -1,10 +1,286 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eric F. Meeks</title>
+    <title>Eric Franklin Meeks</title>
     <description>This is my web thing.</description>
     <link>//</link>
     <atom:link href="//feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Music Portfolio</title>
+        <description>&lt;p&gt;A synopsis of my musical endeavors.&lt;/p&gt;
+
+&lt;h2 id=&quot;bands-ive-played-drums-in&quot;&gt;Bands I’ve played drums in…&lt;/h2&gt;
+
+&lt;!--BREAK--&gt;
+
+&lt;h3 id=&quot;babe&quot;&gt;Babe&lt;/h3&gt;
+
+&lt;p&gt;I was a performing and recording member of Babe from 2015 to 2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/B-6y5V2a8J0?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/sFIh3_NVIDM?rel=0&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;Listen to Babe on their &lt;a href=&quot;http://babe.band&quot;&gt;website&lt;/a&gt;, &lt;a href=&quot;https://itunes.apple.com/ag/album/sheila-ep/1212735676?app=itunes&quot;&gt;iTunes&lt;/a&gt; and &lt;a href=&quot;https://open.spotify.com/album/6WQ6MGBnLZ4sg3DNGOi5G7?si=FBdTH5qMTNuZjZ8cA9UDkQ&quot;&gt;Spotify&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;moving-castles&quot;&gt;Moving Castles&lt;/h3&gt;
+
+&lt;p&gt;I was the original drummer for Moving Castles before the band moved to Austin, TX around 2013.&lt;/p&gt;
+
+&lt;p&gt;My recording contributions can be heard on the &lt;em&gt;&lt;a href=&quot;https://movingcastles.bandcamp.com/album/early-demos&quot;&gt;Early Demos&lt;/a&gt; EP&lt;/em&gt;, and on the songs &lt;em&gt;&lt;a href=&quot;https://open.spotify.com/track/5ogySCDtzmei3TIUTdLeCy?si=0RZyFYmQRwCzPjdjeHgGRA&quot;&gt;Warhol&lt;/a&gt;&lt;/em&gt; and &lt;em&gt;&lt;a href=&quot;https://open.spotify.com/track/6blkLbEhvql2YVHmE4dzAE?si=JvKgPXfxQlGQzm7Nxyc56A&quot;&gt;Hush My Bones&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Warhol&lt;/em&gt; can be heard on the following TV Series:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;em&gt;New Girl&lt;/em&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Season 3, Episode 2
+          &lt;ul&gt;
+            &lt;li&gt;The song is playing in the background during the bar scene with Jess and Nick.&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Switched at Birth&lt;/em&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Season 2, Episode 20
+          &lt;ul&gt;
+            &lt;li&gt;Listen around 30:00&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;Shameless&lt;/em&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Season3, Episode 4&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;em&gt;The Fosters&lt;/em&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Season 3, Episode 6&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;ivoryline&quot;&gt;Ivoryline&lt;/h3&gt;
+
+&lt;p&gt;I played drums in Dead End Driveway before the band became Ivoryline. See the &lt;a href=&quot;https://en.wikipedia.org/wiki/Ivoryline#Members&quot;&gt;members section of Ivoryline’s Wikipedia page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Info and media can be found on &lt;a href=&quot;https://en.wikipedia.org/wiki/Ivoryline&quot;&gt;Wikipedia&lt;/a&gt;, &lt;a href=&quot;https://open.spotify.com/artist/0q9dJ3PCHPPXvweUxr06Id?si=g_Yt_mGxRsC0byWyUWM7rA&quot;&gt;Spotify&lt;/a&gt; and &lt;a href=&quot;https://itunes.apple.com/us/artist/ivoryline/175038701&quot;&gt;Apple Music&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;solo&quot;&gt;Solo&lt;/h2&gt;
+
+&lt;p&gt;Now that I’m bandless, I play the occasional solo acoustic set at coffee shops and open mics around town. I’ll post recordings of these as they come available.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 30 May 2018 12:00:00 +0000</pubDate>
+        <link>//posts/2018/05/30/music-portfolio/</link>
+        <guid isPermaLink="true">//posts/2018/05/30/music-portfolio/</guid>
+      </item>
+    
+      <item>
+        <title>IPme</title>
+        <description>&lt;p&gt;IP address looker-upper that ♥s you.&lt;/p&gt;
+
+&lt;h2 id=&quot;demo&quot;&gt;Demo&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://asciinema.org/a/q2fSmWLQLbt4gRf6700sutkMZ?t=5.5&amp;amp;autoplay=1&amp;amp;loop=1&amp;amp;speed=1.1&amp;amp;size=medium&amp;amp;cols=50&amp;amp;rows=15&quot;&gt;&lt;img src=&quot;https://asciinema.org/a/q2fSmWLQLbt4gRf6700sutkMZ.png&quot; width=&quot;65%&quot; target=&quot;_blank&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;try&quot;&gt;Try&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;curl -Ls https://raw.githubusercontent.com/efmks/ipme/master/ipme.sh | bash&lt;/code&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;get&quot;&gt;Get&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Download the script
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;curl -L https://raw.githubusercontent.com/efmks/ipme/master/ipme.sh -o ipme.sh&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Make it executable
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;chmod +x ipme.sh&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Place somewhere in your &lt;code class=&quot;highlighter-rouge&quot;&gt;$PATH&lt;/code&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv ipme.sh /usr/local/bin/ipme&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Check with &lt;code class=&quot;highlighter-rouge&quot;&gt;which&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;type&lt;/code&gt;
+    &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  $ which ipme
+  /usr/local/bin/ipme
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  $ type ipme
+  ipme is hashed (/Users/eric/bin/ipme)
+&lt;/code&gt;&lt;/pre&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 12 Oct 2017 12:00:00 +0000</pubDate>
+        <link>//posts/2017/10/12/ipme/</link>
+        <guid isPermaLink="true">//posts/2017/10/12/ipme/</guid>
+      </item>
+    
+      <item>
+        <title>Better Apt Installer</title>
+        <description>&lt;p&gt;Install apt packages with &lt;code class=&quot;highlighter-rouge&quot;&gt;bai package(s)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Requires Linux environment with apt package manager. (obviously)&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;install&quot;&gt;Install&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget -q -O - https://git.io/vdiYj | bash
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Better Apt Installer
+
+Usage:      bai [command] package(s)
+
+Commands:   [h]elp    | Show help message
+            [u]pdate  | Update, upgrade, and cleanup packages
+            [i]nstall | (Optional) Install the following package(s)
+            [r]emove  | Remove package(s)
+            [d]elete  | Remove package(s)
+            [s]earch  | Search for packages
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;source&quot;&gt;Source&lt;/h2&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#!/bin/bash&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;# Better Apt Installer&lt;/span&gt;
+&lt;span class=&quot;c&quot;&gt;# https://git.io/vdimV&lt;/span&gt;
+
+usage&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  cat &lt;span class=&quot;sh&quot;&gt;&amp;lt;&amp;lt; eof
+  
+  Better Apt Installer
+  
+  Usage:      bai [command] package(s)
+  
+  Commands:   [h]elp    | Show help message
+              [u]pdate  | Update, upgrade, and cleanup packages
+              [i]nstall | (Optional) Install the following package(s)
+              [r]emove  | Remove package(s)
+              [d]elete  | Remove package(s)
+              [s]earch  | Search for packages
+
+eof
+&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+pre&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c&quot;&gt;# am i root?&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;$(&lt;/span&gt;whoami&lt;span class=&quot;k&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; !&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;root&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;sudo apt-get&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;else
+    &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;apt&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;apt-get&quot;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+update&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  pre
+  &lt;span class=&quot;nv&quot;&gt;$apt&lt;/span&gt; update
+  &lt;span class=&quot;nv&quot;&gt;$apt&lt;/span&gt; upgrade -y
+  &lt;span class=&quot;nv&quot;&gt;$apt&lt;/span&gt; autoremove -y
+  &lt;span class=&quot;nb&quot;&gt;exit&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+install&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; -z &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Nothing to install. See `bai help`'&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else
+    &lt;/span&gt;pre
+    &lt;span class=&quot;nv&quot;&gt;$apt&lt;/span&gt; install -y &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;:2&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+remove&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; -z &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Nothing to remove. See `bai help`'&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else
+    &lt;/span&gt;pre
+    &lt;span class=&quot;nv&quot;&gt;$apt&lt;/span&gt; remove --purge &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;:2&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+search&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; -z &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$2&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt;; &lt;span class=&quot;k&quot;&gt;then
+    &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Nothing to search for. See `bai help`'&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;else
+    &lt;/span&gt;pre
+    &lt;span class=&quot;nv&quot;&gt;$apt&lt;/span&gt; search &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;@&lt;/span&gt;:2&lt;span class=&quot;k&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+    &lt;span class=&quot;nb&quot;&gt;exit
+  &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;fi&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;s&quot;&lt;/span&gt; -o &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;search&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; search &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;u&quot;&lt;/span&gt; -o &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;update&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; update
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;i&quot;&lt;/span&gt; -o &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;install&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; install &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;d&quot;&lt;/span&gt; -o &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;delete&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; remove &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;remove&quot;&lt;/span&gt; -o &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;r&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; remove &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$@&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;[&lt;/span&gt; -z &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; -o &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;help&quot;&lt;/span&gt; -o &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$1&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;h&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; usage &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; usage
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Wed, 04 Oct 2017 12:00:00 +0000</pubDate>
+        <link>//posts/2017/10/04/better-apt-installer/</link>
+        <guid isPermaLink="true">//posts/2017/10/04/better-apt-installer/</guid>
+      </item>
+    
+      <item>
+        <title>Fix Google Drive Folder Icon in macOS</title>
+        <description>&lt;p&gt;Is your the Google Drive folder icon missing? Here’s a simple fix.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open your Applications Folder&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Right click Google Drive and select &lt;em&gt;Show Package Contents&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Open the Contents/Resources folder&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# Or open Terminal and enter the following&lt;/span&gt;
+open /Applications/Google&lt;span class=&quot;se&quot;&gt;\ &lt;/span&gt;Drive/Contents/Resources
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Locate the icon file named &lt;code class=&quot;highlighter-rouge&quot;&gt;folder-mac-yosemite.icns&lt;/code&gt; and copy it with &lt;code class=&quot;highlighter-rouge&quot;&gt;⌘C&lt;/code&gt; or right-click then &lt;em&gt;Copy&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to your Google Drive folder location&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Select the Google Drive folder then press &lt;code class=&quot;highlighter-rouge&quot;&gt;⌘I&lt;/code&gt; or right-click then &lt;em&gt;Get Info&lt;/em&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Click the folder icon then press &lt;code class=&quot;highlighter-rouge&quot;&gt;⌘V&lt;/code&gt; to paste&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tadaa!&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Jul 2017 12:00:00 +0000</pubDate>
+        <link>//posts/2017/07/25/mac-google-drive-icon-fix/</link>
+        <guid isPermaLink="true">//posts/2017/07/25/mac-google-drive-icon-fix/</guid>
+      </item>
     
       <item>
         <title>iOS Mail Aliases</title>
@@ -253,7 +529,7 @@ And finally, &lt;strong&gt;the most important part&lt;/strong&gt;, &lt;code clas
 
 &lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
 &lt;h3 id=&quot;download-zzzzip&quot;&gt;Download Zzz.zip&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&quot;https://github.com/efmeeks/Zzz/archive/master.zip&quot;&gt;Zzz.zip&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/efmks/Zzz/archive/master.zip&quot;&gt;Zzz.zip&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&quot;unzip-the-archive&quot;&gt;Unzip the archive&lt;/h3&gt;
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;unzip Zzz-master.zip&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id=&quot;open-the-folder&quot;&gt;Open the folder&lt;/h3&gt;

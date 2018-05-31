@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>iOS Mail Aliases &#8211; Eric Franklin Meeks</title>
+    <title>Eric Franklin Meeks</title>
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//cdn.mathjax.org">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
@@ -13,8 +13,8 @@
     <meta name="robots" content="all">
     <meta name="author" content="Eric Meeks">
     
-    <meta name="keywords" content="posts">
-    <link rel="canonical" href="//posts/2017/07/23/aliases-in-ios-mail/">
+    
+    <link rel="canonical" href="//page2/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Eric Franklin Meeks" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -49,18 +49,18 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="iOS Mail Aliases">
+    <meta property="og:title" content="Eric Franklin Meeks">
     <meta property="og:description" content="This is my web thing.">
-    <meta property="og:url" content="//posts/2017/07/23/aliases-in-ios-mail/">
+    <meta property="og:url" content="//page2/">
     <meta property="og:site_name" content="Eric Franklin Meeks">
     
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     
-    <meta name="twitter:title" content="iOS Mail Aliases" />
+    <meta name="twitter:title" content="Eric Franklin Meeks" />
     <meta name="twitter:description" content="This is my web thing." />
-    <meta name="twitter:url" content="//posts/2017/07/23/aliases-in-ios-mail/" />
+    <meta name="twitter:url" content="//page2/" />
     
 
     
@@ -148,83 +148,68 @@
       <div class="measure">
         
 
+<div class="home">
+  
+    <div class="posts">
+      
+        <div class="post py3">
+          <p class="post-meta">Jul 23, 2017</p>
+          <a href="/posts/2017/07/23/aliases-in-ios-mail/" class="post-link"><h3 class="h1 post-title">iOS Mail Aliases</h3></a>
+          <span class="post-summary">
+            
+              <p>How to properly set up email aliases in the stock iOS Mail App</p>
 
-<div class="post-header mb2">
-  <h1>iOS Mail Aliases</h1>
-  <span class="post-meta">Jul 23, 2017</span><br>
-  
-  <span class="post-meta small">
-  
-    1 minute read
-  
-  </span>
+
+            
+          </span>
+        </div>
+      
+        <div class="post py3">
+          <p class="post-meta">May 18, 2017</p>
+          <a href="/posts/2017/05/18/bandit/" class="post-link"><h3 class="h1 post-title">Bandit</h3></a>
+          <span class="post-summary">
+            
+              <p>The guys and gals over at <a href="Overthewire.org">Overthewire.org</a> have come up with a series of command line games called <em><a href="http://overthewire.org/wargames/">Wargames</a></em>. I’ve been playing through <em><a href="http://overthewire.org/wargames/bandit/">Bandit</a></em>, the easiest of the series. Here are my solutions so far.</p>
+
+
+            
+          </span>
+        </div>
+      
+        <div class="post py3">
+          <p class="post-meta">May 15, 2017</p>
+          <a href="/posts/2017/05/15/zzz/" class="post-link"><h3 class="h1 post-title">Zzz</h3></a>
+          <span class="post-summary">
+            
+              <p><img src="/images/zzz-ss.png" alt="Screenshot" /></p>
+
+
+            
+          </span>
+        </div>
+      
+    </div>
+
+    
+<div class="pagination clearfix mb1 mt4">
+  <div class="left">
+    
+      
+        <a class="pagination-item" href="/">Newer</a>
+      
+    
+  </div>
+  <div class="right">
+    
+      <span class="pagination-item disabled">Older</span>
+    
+  </div>
+  <div class="pagination-meta">Page 2 of 2</div>
 </div>
 
-<article class="post-content">
-  <p>How to properly set up email aliases in the stock iOS Mail App</p>
 
-<h2 id="generate-an-app-password-for-ios-mail">Generate an App Password for iOS Mail</h2>
-
-<ol>
-  <li>Go to your <a href="https://myaccount.google.com/security#signin">Google Security settings</a></li>
-  <li>Under <em>Signing in to Google</em>, click <em>App Passwords</em></li>
-  <li>If prompted for your password, enter it</li>
-  <li>Under <em>Select App</em>, choose <em>Mail</em></li>
-  <li>Under <em>Select Device</em>, choose <em>Other (Custom Name)</em></li>
-  <li>Enter a name for the app. I used <em>iOS Mail App</em></li>
-  <li>Click <em>Generate</em></li>
-  <li>Copy and paste this password somewhere because we will need it later</li>
-</ol>
-
-<h2 id="configure-ios-mail">Configure iOS Mail</h2>
-
-<ol>
-  <li>
-    <p>Open <em>Settings</em> &gt; <em>Mail</em> &gt; <em>Add Account</em> &gt; <em>Other</em> &gt; <em>Add Mail Account</em></p>
-  </li>
-  <li>Enter your information
-    <div class="highlighter-rouge"><pre class="highlight"><code>Name:        John Doe
-Email:       john.doe@gmail.com
-Password:    top$ecret
-Description: Gmail
-</code></pre>
-    </div>
-  </li>
-  <li>For Incoming Mail, enter the following
-    <div class="highlighter-rouge"><pre class="highlight"><code>Host Name:	imap.gmail.com
-User Name:	john.doe@gmail.com
-Password:	[ Generated App Password ]
-</code></pre>
-    </div>
-  </li>
-  <li>For Outgoing Mail, I use <a href="http://www.smtp2go.com">smtp2go</a>, but you can also use Gmail’s SMTP server
-    <div class="highlighter-rouge"><pre class="highlight"><code>Host Name:	smtp.gmail.com
-User Name:	john.doe@gmail.com
-Password:	[ Generated App Password ]
-</code></pre>
-    </div>
-  </li>
-</ol>
-
-<p>You’re all set!</p>
-
-<p>If you would like to use Google Calendar via the iOS Calendar App, just add an account and choose Gmail. Sign in with your usual Gmail address and password. Once the account is set up, go back into the settings and tap the green toggle next to Mail to turn it off, but leave the Calendar toggle on.</p>
-
-</article>
-
-
-
-
-
-
-
-
-
-
-  <div class="fb-comments" data-href="//posts/2017/07/23/aliases-in-ios-mail/" data-width="100%" data-numposts="10"></div>
-
-
-
+  
+</div>
 
       </div>
     </div>

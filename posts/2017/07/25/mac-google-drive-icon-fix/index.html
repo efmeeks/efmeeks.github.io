@@ -4,7 +4,7 @@
     
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>iOS Mail Aliases &#8211; Eric Franklin Meeks</title>
+    <title>Fix Google Drive Folder Icon in macOS &#8211; Eric Franklin Meeks</title>
     <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
     <link rel="dns-prefetch" href="//cdn.mathjax.org">
     <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
@@ -14,7 +14,7 @@
     <meta name="author" content="Eric Meeks">
     
     <meta name="keywords" content="posts">
-    <link rel="canonical" href="//posts/2017/07/23/aliases-in-ios-mail/">
+    <link rel="canonical" href="//posts/2017/07/25/mac-google-drive-icon-fix/">
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for Eric Franklin Meeks" href="/feed.xml" />
 
     <!-- Custom CSS -->
@@ -49,18 +49,18 @@
     <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="iOS Mail Aliases">
+    <meta property="og:title" content="Fix Google Drive Folder Icon in macOS">
     <meta property="og:description" content="This is my web thing.">
-    <meta property="og:url" content="//posts/2017/07/23/aliases-in-ios-mail/">
+    <meta property="og:url" content="//posts/2017/07/25/mac-google-drive-icon-fix/">
     <meta property="og:site_name" content="Eric Franklin Meeks">
     
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary" />
     
-    <meta name="twitter:title" content="iOS Mail Aliases" />
+    <meta name="twitter:title" content="Fix Google Drive Folder Icon in macOS" />
     <meta name="twitter:description" content="This is my web thing." />
-    <meta name="twitter:url" content="//posts/2017/07/23/aliases-in-ios-mail/" />
+    <meta name="twitter:url" content="//posts/2017/07/25/mac-google-drive-icon-fix/" />
     
 
     
@@ -150,8 +150,8 @@
 
 
 <div class="post-header mb2">
-  <h1>iOS Mail Aliases</h1>
-  <span class="post-meta">Jul 23, 2017</span><br>
+  <h1>Fix Google Drive Folder Icon in macOS</h1>
+  <span class="post-meta">Jul 25, 2017</span><br>
   
   <span class="post-meta small">
   
@@ -161,54 +161,41 @@
 </div>
 
 <article class="post-content">
-  <p>How to properly set up email aliases in the stock iOS Mail App</p>
+  <p>Is your the Google Drive folder icon missing? Here’s a simple fix.</p>
 
-<h2 id="generate-an-app-password-for-ios-mail">Generate an App Password for iOS Mail</h2>
-
-<ol>
-  <li>Go to your <a href="https://myaccount.google.com/security#signin">Google Security settings</a></li>
-  <li>Under <em>Signing in to Google</em>, click <em>App Passwords</em></li>
-  <li>If prompted for your password, enter it</li>
-  <li>Under <em>Select App</em>, choose <em>Mail</em></li>
-  <li>Under <em>Select Device</em>, choose <em>Other (Custom Name)</em></li>
-  <li>Enter a name for the app. I used <em>iOS Mail App</em></li>
-  <li>Click <em>Generate</em></li>
-  <li>Copy and paste this password somewhere because we will need it later</li>
-</ol>
-
-<h2 id="configure-ios-mail">Configure iOS Mail</h2>
-
-<ol>
+<ul>
   <li>
-    <p>Open <em>Settings</em> &gt; <em>Mail</em> &gt; <em>Add Account</em> &gt; <em>Other</em> &gt; <em>Add Mail Account</em></p>
+    <p>Open your Applications Folder</p>
   </li>
-  <li>Enter your information
-    <div class="highlighter-rouge"><pre class="highlight"><code>Name:        John Doe
-Email:       john.doe@gmail.com
-Password:    top$ecret
-Description: Gmail
-</code></pre>
-    </div>
+  <li>
+    <p>Right click Google Drive and select <em>Show Package Contents</em></p>
   </li>
-  <li>For Incoming Mail, enter the following
-    <div class="highlighter-rouge"><pre class="highlight"><code>Host Name:	imap.gmail.com
-User Name:	john.doe@gmail.com
-Password:	[ Generated App Password ]
-</code></pre>
-    </div>
+  <li>
+    <p>Open the Contents/Resources folder</p>
   </li>
-  <li>For Outgoing Mail, I use <a href="http://www.smtp2go.com">smtp2go</a>, but you can also use Gmail’s SMTP server
-    <div class="highlighter-rouge"><pre class="highlight"><code>Host Name:	smtp.gmail.com
-User Name:	john.doe@gmail.com
-Password:	[ Generated App Password ]
-</code></pre>
-    </div>
-  </li>
-</ol>
+</ul>
 
-<p>You’re all set!</p>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c"># Or open Terminal and enter the following</span>
+open /Applications/Google<span class="se">\ </span>Drive/Contents/Resources
+</code></pre>
+</div>
 
-<p>If you would like to use Google Calendar via the iOS Calendar App, just add an account and choose Gmail. Sign in with your usual Gmail address and password. Once the account is set up, go back into the settings and tap the green toggle next to Mail to turn it off, but leave the Calendar toggle on.</p>
+<ul>
+  <li>
+    <p>Locate the icon file named <code class="highlighter-rouge">folder-mac-yosemite.icns</code> and copy it with <code class="highlighter-rouge">⌘C</code> or right-click then <em>Copy</em></p>
+  </li>
+  <li>
+    <p>Go to your Google Drive folder location</p>
+  </li>
+  <li>
+    <p>Select the Google Drive folder then press <code class="highlighter-rouge">⌘I</code> or right-click then <em>Get Info</em></p>
+  </li>
+  <li>
+    <p>Click the folder icon then press <code class="highlighter-rouge">⌘V</code> to paste</p>
+  </li>
+</ul>
+
+<p>Tadaa!</p>
 
 </article>
 
@@ -221,7 +208,7 @@ Password:	[ Generated App Password ]
 
 
 
-  <div class="fb-comments" data-href="//posts/2017/07/23/aliases-in-ios-mail/" data-width="100%" data-numposts="10"></div>
+  <div class="fb-comments" data-href="//posts/2017/07/25/mac-google-drive-icon-fix/" data-width="100%" data-numposts="10"></div>
 
 
 

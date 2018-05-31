@@ -9,6 +9,322 @@
     
         
             <item>
+                <title>Music Portfolio</title>
+                <link>//posts/2018/05/30/music-portfolio/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>A synopsis of my musical endeavors.</p>
+
+<h2 id="bands-ive-played-drums-in">Bands I’ve played drums in…</h2>
+
+<!--BREAK-->
+
+<h3 id="babe">Babe</h3>
+
+<p>I was a performing and recording member of Babe from 2015 to 2017.</p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/B-6y5V2a8J0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/sFIh3_NVIDM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe></p>
+
+<p>Listen to Babe on their <a href="http://babe.band">website</a>, <a href="https://itunes.apple.com/ag/album/sheila-ep/1212735676?app=itunes">iTunes</a> and <a href="https://open.spotify.com/album/6WQ6MGBnLZ4sg3DNGOi5G7?si=FBdTH5qMTNuZjZ8cA9UDkQ">Spotify</a>.</p>
+
+<h3 id="moving-castles">Moving Castles</h3>
+
+<p>I was the original drummer for Moving Castles before the band moved to Austin, TX around 2013.</p>
+
+<p>My recording contributions can be heard on the <em><a href="https://movingcastles.bandcamp.com/album/early-demos">Early Demos</a> EP</em>, and on the songs <em><a href="https://open.spotify.com/track/5ogySCDtzmei3TIUTdLeCy?si=0RZyFYmQRwCzPjdjeHgGRA">Warhol</a></em> and <em><a href="https://open.spotify.com/track/6blkLbEhvql2YVHmE4dzAE?si=JvKgPXfxQlGQzm7Nxyc56A">Hush My Bones</a></em>.</p>
+
+<p><em>Warhol</em> can be heard on the following TV Series:</p>
+<blockquote>
+  <ul>
+    <li><em>New Girl</em>
+      <ul>
+        <li>Season 3, Episode 2
+          <ul>
+            <li>The song is playing in the background during the bar scene with Jess and Nick.</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><em>Switched at Birth</em>
+      <ul>
+        <li>Season 2, Episode 20
+          <ul>
+            <li>Listen around 30:00</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li><em>Shameless</em>
+      <ul>
+        <li>Season3, Episode 4</li>
+      </ul>
+    </li>
+    <li><em>The Fosters</em>
+      <ul>
+        <li>Season 3, Episode 6</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
+
+<h3 id="ivoryline">Ivoryline</h3>
+
+<p>I played drums in Dead End Driveway before the band became Ivoryline. See the <a href="https://en.wikipedia.org/wiki/Ivoryline#Members">members section of Ivoryline’s Wikipedia page</a>.</p>
+
+<p>Info and media can be found on <a href="https://en.wikipedia.org/wiki/Ivoryline">Wikipedia</a>, <a href="https://open.spotify.com/artist/0q9dJ3PCHPPXvweUxr06Id?si=g_Yt_mGxRsC0byWyUWM7rA">Spotify</a> and <a href="https://itunes.apple.com/us/artist/ivoryline/175038701">Apple Music</a>.</p>
+
+<h2 id="solo">Solo</h2>
+
+<p>Now that I’m bandless, I play the occasional solo acoustic set at coffee shops and open mics around town. I’ll post recordings of these as they come available.</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/2018/05/30/music-portfolio/</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Wed, 30 May 2018 12:00:00 +0000</pubDate>
+                <author>Eric Meeks</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>IPme</title>
+                <link>//posts/2017/10/12/ipme/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>IP address looker-upper that ♥s you.</p>
+
+<h2 id="demo">Demo</h2>
+<p><a href="https://asciinema.org/a/q2fSmWLQLbt4gRf6700sutkMZ?t=5.5&amp;autoplay=1&amp;loop=1&amp;speed=1.1&amp;size=medium&amp;cols=50&amp;rows=15"><img src="https://asciinema.org/a/q2fSmWLQLbt4gRf6700sutkMZ.png" width="65%" target="_blank" /></a></p>
+
+<h2 id="try">Try</h2>
+<p><strong><code class="highlighter-rouge">curl -Ls https://raw.githubusercontent.com/efmks/ipme/master/ipme.sh | bash</code></strong></p>
+
+<h2 id="get">Get</h2>
+
+<ul>
+  <li>Download the script
+    <ul>
+      <li><code class="highlighter-rouge">curl -L https://raw.githubusercontent.com/efmks/ipme/master/ipme.sh -o ipme.sh</code></li>
+    </ul>
+  </li>
+  <li>Make it executable
+    <ul>
+      <li><code class="highlighter-rouge">chmod +x ipme.sh</code></li>
+    </ul>
+  </li>
+  <li>Place somewhere in your <code class="highlighter-rouge">$PATH</code>
+    <ul>
+      <li><code class="highlighter-rouge">mv ipme.sh /usr/local/bin/ipme</code></li>
+    </ul>
+  </li>
+  <li>Check with <code class="highlighter-rouge">which</code> or <code class="highlighter-rouge">type</code>
+    <div class="language-text highlighter-rouge"><pre class="highlight"><code>  $ which ipme
+  /usr/local/bin/ipme
+</code></pre>
+    </div>
+
+    <div class="language-text highlighter-rouge"><pre class="highlight"><code>  $ type ipme
+  ipme is hashed (/Users/eric/bin/ipme)
+</code></pre>
+    </div>
+  </li>
+</ul>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/2017/10/12/ipme/</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Thu, 12 Oct 2017 12:00:00 +0000</pubDate>
+                <author>Eric Meeks</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Better Apt Installer</title>
+                <link>//posts/2017/10/04/better-apt-installer/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Install apt packages with <code class="highlighter-rouge">bai package(s)</code></p>
+
+<p><em>Requires Linux environment with apt package manager. (obviously)</em></p>
+
+<h2 id="install">Install</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>wget -q -O - https://git.io/vdiYj | bash
+</code></pre>
+</div>
+
+<h2 id="usage">Usage</h2>
+<div class="highlighter-rouge"><pre class="highlight"><code>Better Apt Installer
+
+Usage:      bai [command] package(s)
+
+Commands:   [h]elp    | Show help message
+            [u]pdate  | Update, upgrade, and cleanup packages
+            [i]nstall | (Optional) Install the following package(s)
+            [r]emove  | Remove package(s)
+            [d]elete  | Remove package(s)
+            [s]earch  | Search for packages
+</code></pre>
+</div>
+
+<h2 id="source">Source</h2>
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c">#!/bin/bash</span>
+
+<span class="c"># Better Apt Installer</span>
+<span class="c"># https://git.io/vdimV</span>
+
+usage<span class="o">()</span> <span class="o">{</span>
+  cat <span class="sh">&lt;&lt; eof
+  
+  Better Apt Installer
+  
+  Usage:      bai [command] package(s)
+  
+  Commands:   [h]elp    | Show help message
+              [u]pdate  | Update, upgrade, and cleanup packages
+              [i]nstall | (Optional) Install the following package(s)
+              [r]emove  | Remove package(s)
+              [d]elete  | Remove package(s)
+              [s]earch  | Search for packages
+
+eof
+</span><span class="nb">exit</span>
+<span class="o">}</span>
+
+pre<span class="o">()</span> <span class="o">{</span>
+  <span class="c"># am i root?</span>
+  <span class="k">if</span> <span class="o">[</span> <span class="s2">"</span><span class="k">$(</span>whoami<span class="k">)</span><span class="s2">"</span> !<span class="o">=</span> <span class="s2">"root"</span> <span class="o">]</span>; <span class="k">then
+    </span><span class="nv">apt</span><span class="o">=</span><span class="s2">"sudo apt-get"</span>
+  <span class="k">else
+    </span><span class="nv">apt</span><span class="o">=</span><span class="s2">"apt-get"</span>
+  <span class="k">fi</span>
+<span class="o">}</span>
+
+update<span class="o">()</span> <span class="o">{</span>
+  pre
+  <span class="nv">$apt</span> update
+  <span class="nv">$apt</span> upgrade -y
+  <span class="nv">$apt</span> autoremove -y
+  <span class="nb">exit</span>
+<span class="o">}</span>
+
+install<span class="o">()</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">"</span><span class="nv">$2</span><span class="s2">"</span> <span class="o">]</span>; <span class="k">then
+    </span><span class="nb">echo</span> <span class="s1">'Nothing to install. See `bai help`'</span>
+    <span class="nb">exit
+  </span><span class="k">else
+    </span>pre
+    <span class="nv">$apt</span> install -y <span class="s2">"</span><span class="k">${</span><span class="p">@</span>:2<span class="k">}</span><span class="s2">"</span>
+    <span class="nb">exit
+  </span><span class="k">fi</span>
+<span class="o">}</span>
+
+remove<span class="o">()</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">"</span><span class="nv">$2</span><span class="s2">"</span> <span class="o">]</span>; <span class="k">then
+    </span><span class="nb">echo</span> <span class="s1">'Nothing to remove. See `bai help`'</span>
+    <span class="nb">exit
+  </span><span class="k">else
+    </span>pre
+    <span class="nv">$apt</span> remove --purge <span class="s2">"</span><span class="k">${</span><span class="p">@</span>:2<span class="k">}</span><span class="s2">"</span>
+    <span class="nb">exit
+  </span><span class="k">fi</span>
+<span class="o">}</span>
+
+search<span class="o">()</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">[</span> -z <span class="s2">"</span><span class="nv">$2</span><span class="s2">"</span> <span class="o">]</span>; <span class="k">then
+    </span><span class="nb">echo</span> <span class="s1">'Nothing to search for. See `bai help`'</span>
+    <span class="nb">exit
+  </span><span class="k">else
+    </span>pre
+    <span class="nv">$apt</span> search <span class="s2">"</span><span class="k">${</span><span class="p">@</span>:2<span class="k">}</span><span class="s2">"</span>
+    <span class="nb">exit
+  </span><span class="k">fi</span>
+<span class="o">}</span>
+
+<span class="o">[</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"s"</span> -o <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"search"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> search <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span>
+<span class="o">[</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"u"</span> -o <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"update"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> update
+<span class="o">[</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"i"</span> -o <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"install"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> install <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span>
+<span class="o">[</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"d"</span> -o <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"delete"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> remove <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span>
+<span class="o">[</span> <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"remove"</span> -o <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"r"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> remove <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span>
+<span class="o">[</span> -z <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> -o <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"help"</span> -o <span class="s2">"</span><span class="nv">$1</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">"h"</span> <span class="o">]</span> <span class="o">&amp;&amp;</span> usage <span class="o">||</span> usage
+
+</code></pre>
+</div>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/2017/10/04/better-apt-installer/</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Wed, 04 Oct 2017 12:00:00 +0000</pubDate>
+                <author>Eric Meeks</author>
+            </item>
+        
+    
+        
+            <item>
+                <title>Fix Google Drive Folder Icon in macOS</title>
+                <link>//posts/2017/07/25/mac-google-drive-icon-fix/</link>
+                <content:encoded>
+                    <![CDATA[
+                    <p>Is your the Google Drive folder icon missing? Here’s a simple fix.</p>
+
+<ul>
+  <li>
+    <p>Open your Applications Folder</p>
+  </li>
+  <li>
+    <p>Right click Google Drive and select <em>Show Package Contents</em></p>
+  </li>
+  <li>
+    <p>Open the Contents/Resources folder</p>
+  </li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="c"># Or open Terminal and enter the following</span>
+open /Applications/Google<span class="se">\ </span>Drive/Contents/Resources
+</code></pre>
+</div>
+
+<ul>
+  <li>
+    <p>Locate the icon file named <code class="highlighter-rouge">folder-mac-yosemite.icns</code> and copy it with <code class="highlighter-rouge">⌘C</code> or right-click then <em>Copy</em></p>
+  </li>
+  <li>
+    <p>Go to your Google Drive folder location</p>
+  </li>
+  <li>
+    <p>Select the Google Drive folder then press <code class="highlighter-rouge">⌘I</code> or right-click then <em>Get Info</em></p>
+  </li>
+  <li>
+    <p>Click the folder icon then press <code class="highlighter-rouge">⌘V</code> to paste</p>
+  </li>
+</ul>
+
+<p>Tadaa!</p>
+
+                    ]]>
+                </content:encoded>
+                <guid isPermaLink="false">/posts/2017/07/25/mac-google-drive-icon-fix/</guid>
+                <description>
+                    
+                </description>
+                <pubDate>Tue, 25 Jul 2017 12:00:00 +0000</pubDate>
+                <author>Eric Meeks</author>
+            </item>
+        
+    
+        
+            <item>
                 <title>iOS Mail Aliases</title>
                 <link>//posts/2017/07/23/aliases-in-ios-mail/</link>
                 <content:encoded>
@@ -69,7 +385,7 @@ Password:	[ Generated App Password ]
                     
                 </description>
                 <pubDate>Sun, 23 Jul 2017 12:00:00 +0000</pubDate>
-                <author>Eric F. Meeks</author>
+                <author>Eric Meeks</author>
             </item>
         
     
@@ -255,7 +571,7 @@ And finally, <strong>the most important part</strong>, <code class="highlighter-
                     
                 </description>
                 <pubDate>Thu, 18 May 2017 12:00:00 +0000</pubDate>
-                <author>Eric F. Meeks</author>
+                <author>Eric Meeks</author>
             </item>
         
     
@@ -278,7 +594,7 @@ And finally, <strong>the most important part</strong>, <code class="highlighter-
 
 <h2 id="usage">Usage</h2>
 <h3 id="download-zzzzip">Download Zzz.zip</h3>
-<p><a href="https://github.com/efmeeks/Zzz/archive/master.zip">Zzz.zip</a></p>
+<p><a href="https://github.com/efmks/Zzz/archive/master.zip">Zzz.zip</a></p>
 <h3 id="unzip-the-archive">Unzip the archive</h3>
 <p><code class="highlighter-rouge">unzip Zzz-master.zip</code></p>
 <h3 id="open-the-folder">Open the folder</h3>
@@ -295,7 +611,7 @@ And finally, <strong>the most important part</strong>, <code class="highlighter-
                     
                 </description>
                 <pubDate>Mon, 15 May 2017 12:00:00 +0000</pubDate>
-                <author>Eric F. Meeks</author>
+                <author>Eric Meeks</author>
             </item>
         
     
