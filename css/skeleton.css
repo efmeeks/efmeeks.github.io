@@ -158,13 +158,14 @@ p {
 strong {
   color: black;
   font-weight: 700;
+  letter-spacing: inherit;
 }
 
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a,a:visited {
-  text-decoration: underline;
+  text-decoration: none;
   color: #222;
   padding: 2px;
   margin: -2px;
