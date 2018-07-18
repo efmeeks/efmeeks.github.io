@@ -163,12 +163,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a,a:visited {
-  text-decoration: none;
+  text-decoration: underline;
   color: #222;
   padding: 2px;
   margin: -2px;
 }
 a:active,a:hover {
+  text-decoration: none;
   color: white;
   background-color: blue;
 }
