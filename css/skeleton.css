@@ -157,8 +157,7 @@ p {
 
 strong {
   color: black;
-  font-weight: 700;
-  letter-spacing: inherit;
+  letter-spacing: normal;
 }
 
 
