@@ -158,8 +158,8 @@ p {
 
 strong {
   color: black;
-  letter-spacing: 0;
-  background-color: lightyellow;
+  letter-spacing: inherit;
+  background-color: tyellow;
 }
 
 
