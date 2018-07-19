@@ -158,6 +158,8 @@ p {
 
 strong {
   color: black;
+  letter-spacing: 0;
+  background-color: lightyellow;
 }
 
 
