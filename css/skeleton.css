@@ -157,24 +157,19 @@ p {
   margin-top: 0; }
 
 strong {
-  color: black;
+  color: white;
   letter-spacing: inherit;
-  background-color: yellow;
+  background-color: blue;
 }
 
 
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-a,a:visited {
-  text-decoration: none;
-  color: #222;
-  padding: 2px;
-  margin: -2px;
-}
-a:active,a:hover {
+a, a:visited, a:active, a:hover {
   text-decoration: none;
   color: white;
-  background-color: blue;
+  padding: 2px;
+  margin: -2px;
 }
 
 
