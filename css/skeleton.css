@@ -160,6 +160,8 @@ strong {
   color: white;
   letter-spacing: inherit;
   background-color: blue;
+  padding: 2px;
+  margin: -2px;
 }
 
 
